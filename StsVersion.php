@@ -9,9 +9,9 @@ use AlibabaCloud\VersionResolverTrait;
  *
  * @package   AlibabaCloud\Sts
  *
- * @method V20150401\StsApiResolver v20150401()
+ * @method static V20150401\StsApiResolver v20150401()
  */
-class Sts
+class StsVersion
 {
     use VersionResolverTrait;
 }

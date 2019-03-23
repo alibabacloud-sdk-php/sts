@@ -2,7 +2,20 @@
 
 namespace AlibabaCloud\Sts\V20150401;
 
+use AlibabaCloud\ApiResolverTrait;
 use AlibabaCloud\Rpc;
+
+/**
+ * Resolve Api based on the method name.
+ *
+ * @method GenerateSessionAccessKey generateSessionAccessKey(array $options = [])
+ * @method GetCallerIdentity getCallerIdentity(array $options = [])
+ * @method AssumeRole assumeRole(array $options = [])
+ */
+class StsApiResolver
+{
+    use ApiResolverTrait;
+}
 
 class V20150401Rpc extends Rpc
 {

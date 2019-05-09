@@ -5,8 +5,8 @@ namespace AlibabaCloud\Sts;
 use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * @deprecated
+ * @method static V20150401\StsApiResolver v20150401()
  */
-class StsVersion extends VersionResolver
+class Sts extends VersionResolver
 {
 }
